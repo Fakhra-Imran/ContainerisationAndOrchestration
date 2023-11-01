@@ -9,6 +9,7 @@ You can download the latest Java JDK (Java Development Kit) from the Oracle or O
 If you plan to develop Java applications, you may want to install an Integrated Development Environment (IDE) like Spring STS.
 
 **Set up Environment Variables:**
+
 **JAVA_HOME:**
 Right-click on "This PC" or "My Computer" and select "Properties."
 Click on "Advanced system settings" on the left side.
@@ -17,9 +18,11 @@ In the "System Variables" section, click "New" to add a new variable.
 Set the variable name to JAVA_HOME.
 Set the variable value to the path where you installed Java (e.g., C:\Program Files\Java\jdk1.8.0_291).
 Click "OK."
+
 **PATH:**
 In the "System Variables" section, find the "Path" variable, select it, and click "Edit."
 Add %JAVA_HOME%\bin to the list of paths. This allows you to run Java executables from the command line without specifying the full path.
+
 **Verify Configuration:**
 Open a Command Prompt.
 Run the following commands to verify that Java is correctly configured:
