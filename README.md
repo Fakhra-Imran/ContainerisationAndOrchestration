@@ -13,6 +13,6 @@ You can set system environment variables to make Maven easily accessible from th
 On Windows, add the Maven bin directory to the PATH environment variable.
 
 **Execute commands**
-./mvnw clean
 
+./mvnw clean
 ./mvnw install
